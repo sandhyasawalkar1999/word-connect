@@ -1,0 +1,62 @@
+body{
+  background-color: rgb(156, 234, 220);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  
+  .itemBtn {
+    background-color: rgb(231, 240, 58);
+    border-radius: 5px;
+    padding: 10px 5px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid grey;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    font-size: medium;
+    border: none;
+  }
+  
+  .reset {
+    background-color: rgb(231, 130, 15);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: none;
+
+  }
+  .reset:hover{
+    background-color: green;
+    cursor: pointer;
+  }
+  
+  .center {
+    text-align: center;
+    font-size: 30px;
+    color:rgb(4, 63, 105);
+    padding: 20px;
+  }
+  
+  .highlight {
+    background-color: rgb(2, 38, 49);
+    color:white;
+  }
+  
+  .success {
+    background-color: rgb(2, 79, 2);
+    color:white;
+  }
+  
+  .failure {
+    background-color: rgb(153, 7, 7);
+    color:white
+  }
+  
+  [data-status] button {
+    cursor: not-allowed;
+  }
